@@ -34,7 +34,7 @@ public class CongratScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        TimeToNextText += Time.deltaTime;
+        TimeToNextText += Time.deltaTime; // In here we add time until 1.5 segs
 
         if (TimeToNextText > 1.5f)
         {
